@@ -51,7 +51,7 @@ body {
     height: 0px;
     bottom: -4px;
     left: 0;
-    background-color: red;
+    background-color: #83B4FF;
     transition: 1s;
 }
 .headerSec1 li:hover::after {
@@ -66,7 +66,7 @@ body {
     height: 0;
     top: -4px;
     right: 0;
-    background-color: red;
+    background-color: #83B4FF;
     transition: 1s;
 }
 .headerSec1 li:hover::before {
@@ -77,7 +77,8 @@ body {
 .headerSec1 li:hover i {
     transform: rotatey(180deg);
     transition: 0.5s;
-    color: red;
+    color: #ffd700;
+    color: #217aff;
 }
 /* headerSec2 --------------------*/
 .headerSec2 {
@@ -108,7 +109,7 @@ body {
 .headerSec2-logo a {
     font-size: 18px;
     text-decoration: none;
-    color: red;
+    color: #4185EE;
 }
 .headerSec2-logo span {
     color: #F1F1F1;
@@ -120,7 +121,8 @@ body {
     color: white;
 }
 .headerSec2-icon i:hover {
-    color: red;
+    color: #ffd700;
+    color: #217aff;
     cursor: pointer;
 }
 .headerSec2-icon .cart-icon::after {
@@ -130,7 +132,8 @@ body {
     height: 20px;
     top: -16px;
     right: -1px;
-    background-color: red;
+    background-color: #217aff;
+    background-color: #83B4FF;
     border-radius: 50%;
     text-align: center;
     color: white;
@@ -165,7 +168,8 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: red;
+    background-color: #ffd700;
+    background-color: #83B4FF;
     transform: scaleX(0);
     transform-origin: bottom left;
     opacity: 0;
@@ -184,7 +188,8 @@ body {
     height: 0;
     bottom: 0;
     left: 0;
-    background-color: red;
+    background-color: #ffd700;
+    background-color: #83B4FF;
     transform: scaleY(0);
     transform-origin: bottom left;
     opacity: 0;
@@ -203,7 +208,8 @@ body {
     height: 0;
     bottom: 0;
     right: 0;
-    background-color: red;
+    background-color: #ffd700;
+    background-color: #83B4FF;
     transform: scaleY(0);
     transform-origin: bottom right;
     opacity: 0;
@@ -222,7 +228,8 @@ body {
     height: 2px;
     top: 0;
     left: 0;
-    background-color: red;
+    background-color: #ffd700;
+    background-color: #83B4FF;
     transform: scaleX(0);
     transform-origin: top left;
     opacity: 0;
@@ -245,6 +252,7 @@ body {
     top: 105%;
     left: -100%;
     background-color: rgb(215, 212, 212);
+    background-color: #121212;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
@@ -254,6 +262,7 @@ body {
     opacity: 0;
     transform: scale(0);
     transition: 1s;
+    color: white;
 }
 .dropdown-menu ul {
     display: flex;
@@ -261,11 +270,13 @@ body {
 }
 .second-child a{
     color: rgba(0, 0, 0, 0.371);
+    color: white;
     font-size: 16px;
     margin-bottom: 5px;
 }
 .second-child a:hover{
-    color: red;
+    color: #ffd700;
+    color: #83B4FF;
     transform: scale(1.1);
 }
 .dropdown:hover .dropdown-menu{
@@ -278,12 +289,12 @@ body {
     display: inline-block;
     padding-bottom: 6px;
     margin-bottom: 10px;
-    border-bottom: 2px dotted rgb(0, 0, 0);
+    border-bottom: 2px dotted rgb(96, 96, 96);
     font-weight: 900;
 }
 /* headerSec3 --------------------*/
 .headerSec3{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.883);
     text-align: center;
     width: 100%;
     margin: auto;
@@ -293,15 +304,17 @@ body {
     padding-top: 7px;
 }
 .headerSec3 a{
-    color: red;
+    color: #c5a020;
+    color: #217aff;
     text-underline-offset: 6px;
+    font-weight: 900;
 }
 .headerSec3 a:hover{
     letter-spacing: 1.5px;
 }
 /*---------- WelcomContainer ----------*/
 .WelcomContainer{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #ffffff1a;
     width: 100%;
     height: 85vh;
 }
@@ -322,11 +335,12 @@ body {
 }
 .WelcomContent h2{
     font-family: "Lavishly Yours", cursive;
-    font-size: 50px;
-    color: rgba(212,175,55,0.3);
+    font-size: 55px;
+    color: #d4af37;
+    color: #217aff;
 }
 .WelcomContent h3 {
-    font-size: 40px;
+    font-size: 33px;
     color: white;
     margin-bottom: 15px;
 }
@@ -342,6 +356,8 @@ body {
     font-size: 20px;
     font-style: italic;
     background-color: rgba(212,175,55,0.3);
+    background-color:#a67c00;
+    background-color:#4185EE;
     border: none;
     border-radius: 10px;
     color: white;
@@ -349,19 +365,20 @@ body {
     transition: 2s;
 }
 .WelcomContent a:hover{
-    background-color: rgb(123, 5, 5);
+    background-color: #1a4d9b;
     transform: scale(1.1);
     transition: 1s linear;
 }
 /* WelcomImg --------------------*/
 .WelcomImg{
     height: 100%;
-    width: 550px;
+    width: 450px;
 }
 .WelcomImg img{
     width: 100%;
     height: 100%;
 }
+
 /*---------- CategoryParent ----------*/
 .CategoryParent{
     width: 85%;
@@ -457,8 +474,8 @@ body {
     padding-bottom: 29px;
 }
 .trendHead .MenTrend{
-    color: red;
-    border-bottom: 5px solid red;
+    color: #217aff;
+    border-bottom: 5px solid #217aff;
 }
 .trendHead-Line {
     border: none;
@@ -611,11 +628,11 @@ body {
     transition-delay: 0.8s;
 }
 .trendProduct_item:hover .Product-tittle{
-    color: red;
+    color: #217aff;
     transition: 0.3s;
 }
 .trendProduct-icon a:hover {
-    background-color: red;
+    background-color: #1a4d9b;
     color: white;
     transition: 0.4s linear;
 }
@@ -854,11 +871,11 @@ body {
     transition: 0.8s ease-out;
 }
 .LikeItem:hover .LikeItem-Title{
-    color: red;
+    color: #217aff;
     transition: 0.3s;
 }
 .LikeItem-icon a:hover {
-    background-color: red;
+    background-color: #1a4d9b;
     color: white;
     transition: 0.4s linear;
 }
@@ -921,13 +938,13 @@ body {
 .News-btn{
     display: inline-block;
     font-size: 20px;
-    color: rgb(135, 0, 0);
+    color: #1a4d9b;
     transition: 0.3s;
     font-weight: 900;
     margin-bottom: 50px;
 }
 .NewsItem:hover .News-HeadLine{
-    color: red;
+    color: #217aff;
     transition: all 0.5s linear;
 }
 .News-btn:hover{
@@ -967,7 +984,7 @@ body {
     transition: 0.1s linear;
 }
 .ServicesItem .back-icon{
-    color: red;
+    color: #1a4d9b;
 }
 .ServicesItem h2 {
     font-size: 22px;
@@ -981,7 +998,7 @@ body {
 footer{
     width: 100%;
     /* background: linear-gradient(to top, rgb(30, 0, 0), rgb(35, 34, 34)); */
-    background: linear-gradient(135deg, #000000, #2c2c2c, #7d5f04);
+    background: linear-gradient(135deg, #000000, #2c2c2c, #1a4d9b);
 }
 /* FooterParent --------------------*/
 .FooterParent{
@@ -1023,7 +1040,7 @@ footer{
     width: 150px;
     height: 50px;
     line-height: 50px;
-    background-color: red;
+    background-color: #217aff;
     color: white;
     border: none;
     font-size: 22px;
@@ -1033,7 +1050,7 @@ footer{
 .footOne .div2 [type="submit"]:hover {
     transform: scale(1.1);
     transition: 0.3s ease;
-    background-color: #8b0000;
+    background-color: #1a4d9b;
 }
 .footOne .div3 i {
     font-size: 25px;
@@ -1066,7 +1083,7 @@ footer{
 .foot-logo a {
     font-size: 18px;
     text-decoration: none;
-    color: red;
+    color: #4185EE;
 }
 .foot-logo span {
     color: #F1F1F1;
@@ -1102,7 +1119,9 @@ footer{
 .footThree a {
     display: inline-block;
     text-decoration: none;
-    color: red;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 18px;
 }
 .footThree a:hover {
     text-decoration: underline;
@@ -1122,15 +1141,15 @@ footer{
 }
 @keyframes Change {
     0%{
-        color:#400000;
+        color:#217aff;
         transform: scale(1);
     }
     50% {
-        color: rgb(255, 0, 0);
+        color: #1a4d9b;
         transform: scale(1.5);
     }
     100% {
-        color: #400000;
+        color: #217aff;
         transform: scale(0);
     }
 }
